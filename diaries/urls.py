@@ -19,6 +19,6 @@ from . import views
 app_name = 'diaries'
 
 urlpatterns = [
-    path('', views.rending, name='rending'),
+    path('', views.loading, name='loading'),
     path('info/', views.info, name='info'),
 ]
