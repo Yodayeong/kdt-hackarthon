@@ -4,14 +4,19 @@
 {% block css %}
 <link rel="stylesheet" href="{% static 'diaries/css/style.css' %}">
 {% endblock %}
+<script type="text/javascript" src ="{% static 'diaries/js/script.js' %}"></script>
 
 {% block content %}
-<div>
-  <h1 class= "typing-txt">안녕하세요!</h1>
-  <p class="typing"></p> 
-</div>
+<h1>
+  <div class="c1">
+    <div class="type">안녕하세요</div></div>
+  </br>
+  <div class="c2">
+    <div class="type2">저는 매일 찾아오는 손자에요</div></div>
+  </br>
+    <div class="c3"><div class="type3">만나서 반가워요</div></div>
+  </br>
+</h1>
 {% endblock %}
 
-{% block js %}
-<script type="text/javascript" src ="{% static 'diaries/js/script.js' %}"></script>
-{% endblock %}
+
