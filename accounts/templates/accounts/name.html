@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<body>
+  <p>이름을 입력해주세요.</p>
+  <p>손녀가 입력한 이름으로 불러드릴게요.</p>
+  <input type = "text" size = "7" maxlength = "6" minlength = "2" placeholder = "이름을 입력해주세요!">
+</div>
+</body>
+{% endblock %}
