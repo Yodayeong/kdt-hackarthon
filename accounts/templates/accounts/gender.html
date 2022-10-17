@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<body>
+  <p>성별을 입력해주세요.</p>
+  <input type = "radio" name = "gender" value = "man">남
+  <input type = "radio" name = "gender" value = "woman">여
+</div>
+</body>
+{% endblock %}
