@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'diaries/css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div>
+  <h1 class= "typing-txt">안녕하세요!</h1>
+  <p class="typing"></p> 
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript" src ="{% static 'diaries/js/script.js' %}"></script>
+{% endblock %}
