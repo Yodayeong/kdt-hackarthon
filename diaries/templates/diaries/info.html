@@ -7,16 +7,23 @@
 <script type="text/javascript" src ="{% static 'diaries/js/script.js' %}"></script>
 
 {% block content %}
-<h1>
+<h1 class="info-text fw-light" style="font-size: 20px; padding-top: 4rem; line-height: 3rem;">
   <div class="c1">
     <div class="type">안녕하세요</div></div>
   </br>
   <div class="c2">
-    <div class="type2">저는 매일 찾아오는 손자에요</div></div>
+    <div class="type2">저는 매일 찾아오는</div></div>
   </br>
-    <div class="c3"><div class="type3">만나서 반가워요</div></div>
+  <div class="c3">
+    <div class="type3"><span class="fw-normal" style="color: rgb(242, 131, 179);">손녀</span>에요</div></div>
+  </br>
+  <div class="c4">
+    <div class="type4">만나서 반가워요!</div></div>
   </br>
 </h1>
+<div class="d-flex justify-content-end position-fixed" style="bottom: 12rem; right: 3rem;">
+  <a class="btn btn-lg btn-outline-primary" href="{% url 'accounts:name' %}">다음</a>
+</div>
 {% endblock %}
 
 

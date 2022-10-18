@@ -3,5 +3,13 @@
 
 {% block content %}
 
-<img src="{% static 'diaries\image\2022-10-17_9.43.18.png' %}" alt="logo-image">
+<div class="c1">
+  <div class="type">
+  <div class="logo text-center" style="padding: 15rem 0 15rem;">
+    <a href="{% url 'diaries:info' %}">
+      <img src="{% static 'diaries\image\logo.png' %}" alt="logo-image" style="width: 15rem;">
+    </a>
+  </div>
+</div>
+</div>
 {% endblock %}
