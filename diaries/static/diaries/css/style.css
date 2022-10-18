@@ -3,9 +3,7 @@ body{
   background-size: cover;
   font-family: Play; 
 }
-a{
-  color: mediumseagreen;
-}
+
 .c1{
   display: inline-block;
 }
@@ -25,7 +23,6 @@ h1{
 h1 .type{
     font-size: 2.5rem;
     overflow: hidden;
-    border-right: .15em solid orange;
     white-space: nowrap; 
     width: 0;
     animation: 
@@ -35,7 +32,6 @@ h1 .type{
 h1 .type2{
     font-size: 2.5rem; 
     overflow: hidden;
-    border-right: .15em solid orange;
     white-space: nowrap; 
     width: 0;
     animation: 
@@ -46,7 +42,6 @@ h1 .type2{
 h1 .type3{
     font-size: 2.5rem; 
     overflow: hidden;
-    border-right: .15em solid orange; 
     white-space: nowrap; 
     width: 0;
     animation: 
@@ -64,8 +59,4 @@ h1 .type3{
     width: 100%;
     opacity: 1;
   }
-}
-@keyframes blink {
-  from { border-color: transparent }
-  to { border-color: orange; }
 }
