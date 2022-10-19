@@ -6,14 +6,28 @@
 {% endblock %}
 
 {% block content %}
-<div style="margin-top: 6rem;">
-  <h1 class="text-center fw-light mt-5 mb-3">성별을 입력해주세요.</h1>
+
+<!-- heart images -->
+<div style="display:flex; justify-content:center; align-items:center; padding-top:3rem;">
+  <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
+  <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
+  <img src="{% static 'diaries/image/bin-heart.png' %}" alt="" style="height:2rem;">
+  <img src="{% static 'diaries/image/bin-heart.png' %}" alt="" style="height:2rem;">
 </div>
-<div class="text-center" style="margin-top: 6rem;">
+
+<!-- text box -->
+<h1 class="text-center fw-light my-5" style="font-size:24px;">성별을 입력해 주세요.</h1>
+
+<!-- gender input -->
+<div style="height:2rem;"></div>
+<div class="text-center">
 <input class="form-check-input mx-2" type="radio" name ="gender" value="man">남
 <input class="form-check-input mx-2" type="radio" name ="gender" value="woman">여
 </div>
+
+<!-- next button -->
 <div class="d-flex justify-content-end position-fixed" style="bottom: 12rem; right: 3rem;">
-  <a class="btn btn-lg btn-outline-primary" href="{% url 'accounts:birth' %}">다음</a>
+  <a class="btn btn-lg btn-outline-dark" href="{% url 'accounts:birth' %}">다음</a>
 </div>
+
 {% endblock %}

@@ -9,19 +9,20 @@
 {% block content %}
 
 <!-- heart images -->
-<i class="bi bi-heart-fill"></i>
-
-<div style="display:flex; justify-content:center; align-items:center; padding:3rem;">
-    <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:10rem;">
+<div style="display:flex; justify-content:center; align-items:center; padding-top:3rem;">
+    <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
+    <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
+    <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
+    <img src="{% static 'diaries/image/full-heart.png' %}" alt="" style="height:2rem;">
 </div>
 
 <!-- text box -->
 <div style="display:flex; justify-content:center; align-items:center; flex-direction:column;">
-    <h1>소리 크기를 설정해 주세요.</h1>
-    <p style="font-size:30px; color:gray;">해당 소리로 알림이 옵니다.</p>
+    <h1 class="text-center fw-light mt-5 mb-3" style="font-size:24px;">소리 크기를 설정해 주세요.</h1>
+    <p class="text-center fw-light" style="font-size:17px;">해당 소리로 알림이 옵니다.</p>
 </div>
 
-<!-- volume box version.1 -->
+<!-- volume box -->
 <i class="bi bi-megaphone"></i>
 
 <div style="display:flex; justify-content:center; align-items:center;" >
@@ -40,26 +41,23 @@
     <option value="3">크게</option>
 </select>
 
-<!-- volume box version.2
-<input type="range" min="1" max="10" style="width:100%;"> -->
-
 <!-- checkbox -->
-<div style="padding:0 23rem;">
-    <div style="display:flex; padding: 1rem 0 0.5rem 0;">
-        <input type="checkbox">
-        <p style="margin:0; margin-left:0.5rem;">(필수) 이용약관</p>
-    </div>
-    <div style="display:flex;">
-        <input type="checkbox">
-        <p style="margin:0; margin-left:0.5rem;">(필수) 개인 정보 수집 / 이용 동의</p>
+<div class="input-group flex-nowrap" style="margin-top: 2rem;">
+    <div style="display:flex; flex-direction:column;">
+        <div style="display:flex">
+            <input type="checkbox">
+            <p style="margin:0; margin-left:0.5rem; font-size:18px;">(필수) 이용약관</p>
+        </div>
+        <div style="display:flex;">
+            <input type="checkbox">
+            <p style="margin:0; margin-left:0.5rem; font-size:18px;">(필수) 개인 정보 수집 / 이용 동의</p>
+        </div>
     </div>
 </div>
 
-
 <!-- submit -->
 <div style="height:2rem;"></div>
-<input class="btn btn-dark" type="submit" value="확인" style="width:100%; height:4rem;">
-<div style="height:2rem;"></div>
+<input class="btn btn-dark" type="submit" value="확인" style="width:100%; height:4rem; font-size:25px;">
 
 
 
