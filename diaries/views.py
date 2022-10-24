@@ -9,3 +9,7 @@ def info(request):
 
 def report(request):
     return render(request, 'diaries/report.html')
+
+def index(request):
+    return render(request, 'diaries/index.html')
+

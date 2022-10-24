@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'diaries/css/base.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<!-- space -->
+<div style="height:5rem;"></div>
+
+<!-- question box -->
+<h1 class="question-title">오늘의 질문</h1>
+<div class="question-box">
+    <p class="question-text">오늘 뭐 드시고 싶으세요?</p>
+</div>
+
+
+<!-- nav bar -->
+<div class="fixed-bottom bg-light nav-box">
+    <a href=""><img class="nav-img" src="{% static 'diaries/image/report.png' %}" alt=""></a>
+    <a href=""><img class="nav-img" src="{% static 'diaries/image/home.png' %}" alt=""></a>
+    <a href=""><img class="nav-img" src="{% static 'diaries/image/settings.png' %}" alt=""></a>
+</div>
+
+{% endblock %}

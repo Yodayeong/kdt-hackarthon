@@ -23,4 +23,5 @@ urlpatterns = [
     path('input-gender/', views.gender, name='gender'),
     path('input-birth/', views.birth, name='birth'),
     path('input-volume/', views.volume, name='volume'),
+    path('setting/', views.setting, name='setting'),
 ]
