@@ -1,1 +1,35 @@
-/* volume */
+/* nav bar */
+.nav-box{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between; 
+    padding:1rem 2rem;
+}
+
+.nav-img{
+    width:2.5rem; 
+    height:2.5rem;
+}
+
+/* index - question */
+.question-title{
+    padding:0.5rem; 
+    padding-bottom:0; 
+    font-size:25px; 
+    font-weight:bold;
+}
+
+.question-box{
+    background-color:#f5dfdf; 
+    height:6rem; 
+    display:flex; 
+    justify-content: center; 
+    align-items:center; 
+    border-radius:5px;
+}
+
+.question-text{
+    margin:0; 
+    padding:0 0.5rem; 
+    font-size:22px;
+}
