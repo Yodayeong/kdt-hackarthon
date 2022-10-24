@@ -6,3 +6,6 @@ def loading(request):
 
 def info(request):
     return render(request, 'diaries/info.html')
+
+def report(request):
+    return render(request, 'diaries/report.html')

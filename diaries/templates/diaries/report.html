@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- 리포트 헤더 -->
+<div class="mt-5">
+  <h1 class="fw-light" style="line-height: 2.5rem;"><span class="fw-normal">권세빈</span> 할머니는<br>이번 <span class="fw-normal">10월달에</span><br><span class="fw-semibold text-primary">굉장히 긍정적</span>이셨네요!</h1>
+  </h1>
+</div>
+
+<!-- 하트 -->
+<div class="">
+  <div class="text-center top-50 mb-3" style="margin-top: 6rem; z-index: 3px;">
+    <img src="{% static 'diaries/image/positive.png' %}" style="width: 5rem;">
+  </div>
+  <!-- 그래프 -->
+  <div class="progress">
+    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+</div>
+{% endblock %}
