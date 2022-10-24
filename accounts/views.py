@@ -12,3 +12,6 @@ def birth(request):
 
 def volume(request):
     return render(request, 'accounts/volume.html')
+
+def setting(request):
+    return render(request, 'accounts/setting.html')
