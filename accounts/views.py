@@ -10,8 +10,8 @@ def gender(request):
 def birth(request):
     return render(request, 'accounts/birth.html')
 
-def volume(request):
-    return render(request, 'accounts/volume.html')
+def alarm(request):
+    return render(request, 'accounts/alarm.html')
 
 def setting(request):
     return render(request, 'accounts/setting.html')

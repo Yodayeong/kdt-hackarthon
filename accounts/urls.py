@@ -22,6 +22,6 @@ urlpatterns = [
     path('input-name/', views.name, name='name'),
     path('input-gender/', views.gender, name='gender'),
     path('input-birth/', views.birth, name='birth'),
-    path('input-volume/', views.volume, name='volume'),
+    path('input-alarm/', views.alarm, name='alarm'),
     path('setting/', views.setting, name='setting'),
 ]
