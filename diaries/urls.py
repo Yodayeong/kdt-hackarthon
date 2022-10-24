@@ -21,5 +21,6 @@ app_name = 'diaries'
 urlpatterns = [
     path('', views.loading, name='loading'),
     path('info/', views.info, name='info'),
+    path('report/', views.report, name='report'),
     path('index/', views.index, name='index'),
 ]
