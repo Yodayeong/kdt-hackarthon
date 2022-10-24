@@ -70,3 +70,8 @@ h1{
     opacity: 1;
   }
 }
+
+.setting-img {
+  width: 2rem;
+  height: 2rem;
+}
